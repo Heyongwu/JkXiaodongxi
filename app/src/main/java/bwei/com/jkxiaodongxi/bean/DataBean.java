@@ -3,10 +3,10 @@ package bwei.com.jkxiaodongxi.bean;
 import java.util.List;
 
 /**
- * Created by Yw_Ambition on 2017/12/1.
+ * Created by Yw_Ambition on 2017/12/2.
  */
 
-public class JavaBean {
+public class DataBean {
 
     /**
      * error : false
@@ -135,22 +135,6 @@ public class JavaBean {
 
         public void setImages(List<String> images) {
             this.images = images;
-        }
-
-        @Override
-        public String toString() {
-            return "ResultsBean{" +
-                    "_id='" + _id + '\'' +
-                    ", createdAt='" + createdAt + '\'' +
-                    ", desc='" + desc + '\'' +
-                    ", publishedAt='" + publishedAt + '\'' +
-                    ", source='" + source + '\'' +
-                    ", type='" + type + '\'' +
-                    ", url='" + url + '\'' +
-                    ", used=" + used +
-                    ", who='" + who + '\'' +
-                    ", images=" + images +
-                    '}';
         }
     }
 }

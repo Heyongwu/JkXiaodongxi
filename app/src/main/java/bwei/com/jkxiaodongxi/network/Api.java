@@ -5,7 +5,7 @@ package bwei.com.jkxiaodongxi.network;
  */
 
 public class Api {
-    public static final String HOST="http://gank.io/api/";
+    public static final String HOST="http://gank.io/";
     public static final String URL="data/Android/10/1";
     public static final String HOSTURL="http://120.27.23.105/user/login";
 }
